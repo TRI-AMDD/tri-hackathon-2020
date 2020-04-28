@@ -4,7 +4,8 @@ This repository contains assets and code for the 2020 TRI hackathon focused on
 the development of sequential learning AI for materials science.
 
 ## Installation
-To set yourself up for the lessons, use the following installation procedure.
+To set yourself up for the lessons, use the following installation procedure.  I'd also
+recommend using Anaconda python with a fresh env.
 
 1. Clone the repo - TODO: update public url
     ```bash
@@ -28,6 +29,14 @@ To set yourself up for the lessons, use the following installation procedure.
     python setup.py develop
     ``` 
     
+4. Start your jupyter server.  Note that you may have to install a clean version of jupyter
+in your conda env in order to make sure your codes are using the correct dependencies and
+pathing.
+
+    ```angular2
+    jupyter notebook
+    ```
+
 ## Tutorial
 
 The tutorial will walk through an example of using [CAMD](https://github.com/TRI-AMDD/CAMD)
