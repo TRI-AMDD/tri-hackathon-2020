@@ -7,7 +7,7 @@ setup(
     version="2020.4.28",
     packages=find_packages(),
     install_requires=[
-        "camd @ git+https://github.com/TRI-AMDD/camd@dev#egg=camd"
+        "camd"
     ],
     # TODO: make dev master
     # Enforce dev version of CAMD
