@@ -19,6 +19,7 @@ To set yourself up for the lessons, use the following installation procedure.
 2. Install requirements.  Install numpy first so dependencies requiring 
     numpy pre-install work.
     ```bash
+    cd hackathon2020
     pip install numpy==1.18.2
     pip install -r requirements.txt
     ```
