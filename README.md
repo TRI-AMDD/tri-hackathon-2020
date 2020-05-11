@@ -9,19 +9,19 @@ recommend using Anaconda python with a fresh env.
 
 1. Clone the repo - TODO: update public url
     ```bash
-    git clone https://github.awsinternal.tri.global/materials/hackathon2020.git
+    git clone https://github.com/TRI-AMDD/hackathon2020.git
     ```
     or if you're using ssh:
 
     ```bash
-    git@github.awsinternal.tri.global:materials/hackathon2020.git
+    git@github.com:TRI-AMDD/hackathon2020.git
     ```
 
 2. Install requirements.  Install numpy first so dependencies requiring 
     numpy pre-install work.
     ```bash
     cd hackathon2020
-    pip install numpy==1.18.2
+    pip install numpy==1.18.3
     pip install -r requirements.txt
     ```
 3. Install package (in development mode so changes in your local repo will be available).

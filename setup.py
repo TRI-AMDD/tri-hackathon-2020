@@ -9,9 +9,4 @@ setup(
     install_requires=[
         "camd"
     ],
-    # TODO: make dev master
-    # Enforce dev version of CAMD
-    # dependency_links=[
-    #     "git+https://github.com/TRI-AMDD/camd/tarball/dev#egg=camd"
-    # ]
 )
