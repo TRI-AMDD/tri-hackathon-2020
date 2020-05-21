@@ -1,5 +1,3 @@
 # Temporary qmpy3 dependency
 git+git://github.com/JosephMontoya-TRI/qmpy_py3@master#egg=qmpy
-
-# Temporary dev CAMD dep
-git+git://github.com/TRI-AMDD/camd@dev#egg=camd
+camd==2020.5.19
