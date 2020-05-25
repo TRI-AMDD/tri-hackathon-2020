@@ -10,7 +10,9 @@ pip install -e .
 # Install ipywidgets and widgets extensions
 pip install ipywidgets
 source activate JupyterSystemEnv  # not sure if this is necessary
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install @jupyterlab/plotly-extension --no-build
+jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
+jupyter lab build
 jupyter nbextension enable --py widgetsnbextension
 EOF
 
