@@ -4,8 +4,9 @@ This repository contains assets and code for the 2020 TRI hackathon focused on
 the development of sequential learning AI for materials science.
 
 ## Installation
-To set yourself up for the lessons, use the following installation procedure.  I'd also
-recommend using Anaconda python with a fresh env.
+To set yourself up for the lessons, use the following installation procedure.  We also
+recommend using Anaconda python with a fresh environment (e. g. `conda create -n hackathon` 
+and `conda activate hackathon` or the like).
 
 1. Clone the repo
     ```bash
@@ -20,7 +21,7 @@ recommend using Anaconda python with a fresh env.
 2. Install requirements.  Install numpy first so dependencies requiring 
     numpy pre-install work.
     ```bash
-    cd hackathon2020
+    cd tri-hackathon-2020
     pip install numpy==1.18.3
     pip install -r requirements.txt
     ```
