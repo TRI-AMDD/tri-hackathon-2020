@@ -9,12 +9,12 @@ recommend using Anaconda python with a fresh env.
 
 1. Clone the repo - TODO: update public url
     ```bash
-    git clone https://github.com/TRI-AMDD/hackathon2020.git
+    git clone https://github.com/TRI-AMDD/tri-hackathon-2020.git
     ```
     or if you're using ssh:
 
     ```bash
-    git@github.com:TRI-AMDD/hackathon2020.git
+    git@github.com:TRI-AMDD/tri-hackathon-2020.git
     ```
 
 2. Install requirements.  Install numpy first so dependencies requiring 
