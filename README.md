@@ -7,7 +7,7 @@ the development of sequential learning AI for materials science.
 To set yourself up for the lessons, use the following installation procedure.  I'd also
 recommend using Anaconda python with a fresh env.
 
-1. Clone the repo - TODO: update public url
+1. Clone the repo
     ```bash
     git clone https://github.com/TRI-AMDD/tri-hackathon-2020.git
     ```
